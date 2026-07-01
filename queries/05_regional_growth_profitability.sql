@@ -4,6 +4,7 @@
 -- Business Question: Which regions 
 -- are growing versus declining?
 -- SQL Concepts: SELECT, ROUND, LAG, LEAD, GROUP BY, ORDER BY
+
 SELECT "Region", "Year", 
 ROUND(LAG(SUM("Profit_USD")) OVER (PARTITION BY "Region" ORDER BY "Year")::numeric,2) AS previous_year_profit,
 ROUND(SUM("Profit_USD")::numeric,2) AS current_profit,
