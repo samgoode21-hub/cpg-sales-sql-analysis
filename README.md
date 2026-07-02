@@ -18,6 +18,12 @@ subqueries, and window functions (RANK, LAG, LEAD) in a CPG business context.
 5. Which regions are growing versus declining in revenue?
 6. Which brands rank highest within each product category by total profit?
 ## Key Findings
+- **Household and Personal Care dominate profitability**, with HomeNest and PureLiva ranking #1 and #2 across all 17 brands by total profit. These two categories consistently deliver the strongest margins and revenue.
+- **No Promo transactions generate the highest profit and margin**, preserving full margin at 22.73% average. Among active promotions, Bundle Offers and Seasonal Campaigns drive the most volume without heavily compressing margin.
+- **3 of 5 product categories exceed the overall average profit margin of 19.87%** — Personal Care (25.98%), Dairy & Breakfast (24.62%), and Household (22.81%). Beverages trails significantly at 11.15%.
+- **Profit grew consistently from 2023 to 2025**, though Beverages and Snacks declined in 2025, while Household, Personal Care, and Dairy & Breakfast grew every year without exception.
+- **Europe and North America are the strongest regional performers**, growing profit each year. North America showed the largest acceleration in 2025. Asia and South America declined slightly in 2025 after strong 2024 growth.
+- **Category leaders dominate their segments**, with HomeNest, PureLiva, MorningCo, FuelCore, and NutriBite each holding a commanding profit lead over competitors within their respective categories.
 ## Dataset
 **Source:** FMCG Sales & Marketing Profitability Dataset (Kaggle)  
 **Table:** public.fmcg_sales  
