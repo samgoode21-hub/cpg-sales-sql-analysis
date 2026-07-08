@@ -53,6 +53,8 @@ cpg-sales-sql-analysis/
 │   ├── 04_profitability_trends.sql
 │   ├── 05_regional_growth.sql
 │   └── 06_brand_ranking_by_category.sql
-└── findings/
-    └── summary.md
+├── findings/
+│   └── summary.md
+└── images/
+    └── (6 query result screenshots)
 ```
